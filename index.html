@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Link del CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Link de Tipografía-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <!-- Link de otra tipografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Staatliches&display=swap" rel="stylesheet">
+    <title>Home Realta</title>
+</head>
+<!--Se agregan clases para agregar los estilos por clases desde CSS-->
+<body>
+    <!-- Seccion 1 Encabezado del proyecto-->
+    <!--Menú de navegación-->
+    <header class="encabezado">
+
+        <nav class="nav contenedor" id="nav">
+            <h2 class="nav__logo"><a href="index.html"><img src="img/LogoRealta copia2.png" alt="LogoRealta" class="logo"></a></h2>
+            <ul class="nav__links">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">Inicio</a>
+                </li>
+                <li class="nav__item--sec">
+                    <a href="#" class="nav__link">Productos</a>
+                    <ul class="secmenu">
+                        <li class="secmenu__li"><a class="secmenu__li--a" href="pages/vestidos.html">Vestidos de baño</a></li>
+                        <li class="secmenu__li"><a class="secmenu__li--a" href="pages/algomas.html">Algo más</a></li>
+                    </ul>    
+                </li>
+                <li class="nav__item">
+                    <a href="pages/personalizados.html" class="nav__link">Personalizados</a>
+                </li>
+                <li class="nav__item">
+                    <a href="pages/contacto.html" class="nav__link">Contacto</a>
+                </li>
+            </ul>
+            <a href="#nav" class="nav__hamburguer">
+                <img src="img/menu.svg" class="nav__icon">
+            </a>
+            <a href="#" class="nav__close">
+                <img src="img/close.svg" class="nav__icon">
+            </a>
+        </nav>
+        
+        
+    </header>
+    <main>
+        <!-- Sección 2 -->
+        <section class="masVistos">
+
+            <div class="productosBanner">
+                <a href="pages/vestidos.html"><img src="img/enteroMarino1100x1200.png" alt="EnteroMarino" class="productoBanner"></a>
+                <h3 class="masVistos__h3">Vestidos de baño</h3>
+            </div>
+            <div class="productosBanner">
+                <a href="pages/algomas.html"><img src="img/overallalgomas.png" alt="overallAlgomas" class="productoBanner"></a>
+                <h3 class="masVistos__h3">Algo más</h3>
+            </div>
+            <div class="productosBanner">
+                <a href="pages/personalizados.html"><img src="img/personalizados1100x1200.png" alt="Personalizados" class="productoBanner"></a>
+                <h3 class="masVistos__h3">Personalizados</h3>
+            </div>
+        </section>
+        <!-- Carrusel utilizando Bootstrap Sección 3 -->
+              
+            <h3>#REALTA</h3>
+            <p>¡Hola! Si quieres ver más contenido interesante y estar al tanto de todas nuestras novedades, ¡no olvides seguirnos en Instagram! Allí podrás ver fotos y videos exclusivos, serás parte del muro de nuestra página web con #REALTA, además de enterarte de promociones y eventos especiales. ¡Te esperamos! </p>
+            <div id="carousel-comunidad" class="carousel carousel slide">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-comunidad" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-comunidad" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-comunidad" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-comunidad" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner slider">
+                <div class="carousel-item active citem" data-bs-interval="2000">
+                    <img src="img/instagram1_1100x1200.png" class="d-block w-70 c-img" alt="enterospersonalizados">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>@estefy_rp</h5>
+                    <p>Porque sabemos que no hay otra igual a vos, personalizamos tus Vestidos de baño.</p>
+                    </div>
+                </div>
+                <div class="carousel-item citem" data-bs-interval="2000">
+                    <img src="img/instagram2_1100x1200.png" class="d-block w-70 c-img" alt="disenioindependientepinias">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>@daniposada06</h5>
+                    <p>y sus chicas en @aguamalauwsports con bikinis de flores</p>
+                    </div>
+                </div>
+                <div class="carousel-item citem" data-bs-interval="2000">
+                    <img src="img/instagram3_1100x1200.png" class="d-block w-70 c-img" alt="Bikinivinotintopersonalizado">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>@paosalazarserna</h5>
+                    <p>Bella en la playita con su bikini personalizado.</p>
+                    </div>
+                </div>
+                <div class="carousel-item citem" data-bs-interval="2000">
+                    <img src="img/instagram4_1100x1200.png" class="d-block w-70 c-img" alt="OverallMarfil">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>@aporiana</h5>
+                    <p>Hermosa en el Overall Marfil.</p>
+                    </div>
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-comunidad" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-comunidad" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </main>
+    <!--Pie de página-->
+    <footer class="piePagina">
+        <div class="piePagina__logo">
+            <figure>
+                <a href="index.html"><!--Para facilidad del usuario se agrega link de la página principal al logo-->
+                    <img src="img/LogoRealta copia2.png" alt="LogoRealta" class="logo">
+                </a> 
+            </figure>
+        </div>
+        <div class="piePagina__text">
+            <p>2023 Sebas Restrepo -<span>Todos los derechos reservados.</span></p>
+        </div>
+        <div class="piePagina__redes">
+            <a href="https://www.instagram.com/realta_/" target="_blank"> <img src="img/instagramlogo.svg" class="iconInsta"></a>
+            <a href="https://api.whatsapp.com/send?phone=573117373300&text=Hola%20Realta!%20%0AQuisiera%20informaci%C3%B3n%20sobre%20tus%20productos.%20%F0%9F%8C%9C" target="_blank"> <img src="img/whatsapplogo.svg" class="iconWhats"></a>
+            <a href="mailto:realta@gmail.com?subject=Contacto&body=Quiero conocer las ofertas de realta"></ahref> <img src="img/emaillogo.svg" class="iconMail"></a>
+        </div>
+    </footer>
+    <!--Script de bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!--Script JavaScript-->
+    <script src="/scripts/main.js"></script>
+</body>
+
+</html>
